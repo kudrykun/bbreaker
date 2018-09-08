@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4515728852346014}
   - component: {fileID: 114079244141053062}
   m_Layer: 0
-  m_Name: Game Status
+  m_Name: Game Session
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -84,12 +84,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1354191096726132}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d4a348182a6445098e2d7cd2fc459b7, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c4b872d204344bfca27eb867cbbfb38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameSpeed: 1
+  gameSpeed: 0.96
   pointsPerBlockDestroy: 83
-  scoreText: {fileID: 114702459030088662}
+  scoreText: {fileID: 114958843094231290, guid: f4f7bed6aefd04ea68456d11a2847511,
+    type: 2}
   score: 0
 --- !u!114 &114501794332022742
 MonoBehaviour:
